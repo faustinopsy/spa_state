@@ -1,0 +1,51 @@
+{
+  "navbar": {
+      "pt": {
+        "inicio": "Inicial",
+        "sobre": "Sobre",
+        "contato": "Contato"
+      },
+      "en": {
+        "inicio": "Home",
+        "sobre": "About",
+        "contato": "Contact"
+      }
+    },
+    "inicio": {
+      "pt": {
+        "titulo": "Bem-vindo à Página Inicial",
+        "descricao": "Esta é a página inicial da nossa aplicação.",
+        "subtitulo": "Explore nossos recursos!"
+      },
+      "en": {
+        "titulo": "Welcome to the Home Page",
+        "descricao": "This is the home page of our application.",
+        "subtitulo": "Explore our features!"
+      }
+    },
+    "sobre": {
+      "pt": {
+        "titulo": "Sobre Nós",
+        "descricao": "Nós somos uma equipe dedicada a criar ótimos produtos.",
+        "missao": "Nossa missão é servir você."
+      },
+      "en": {
+        "titulo": "About Us",
+        "descricao": "We are a team dedicated to creating great products.",
+        "missao": "Our mission is to serve you."
+      }
+    },
+    "contato": {
+      "pt": {
+        "titulo": "Entre em Contato",
+        "descricao": "Sinta-se à vontade para nos enviar uma mensagem.",
+        "email": "Nosso email é contato@exemplo.com"
+      },
+      "en": {
+        "titulo": "Contact Us",
+        "descricao": "Feel free to send us a message.",
+        "email": "Our email is contact@example.com"
+      }
+    }
+  }
+  
