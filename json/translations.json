@@ -1,14 +1,14 @@
 {
   "navbar": {
       "pt": {
-        "inicio": "Inicial",
-        "sobre": "Sobre",
-        "contato": "Contato"
+        "#inicio": "Inicial",
+        "#sobre": "Sobre",
+        "#contato": "Contato"
       },
       "en": {
-        "inicio": "Home",
-        "sobre": "About",
-        "contato": "Contact"
+        "#inicio": "Home",
+        "#sobre": "About",
+        "#contato": "Contact"
       }
     },
     "inicio": {
