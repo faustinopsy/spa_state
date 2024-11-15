@@ -1,23 +1,24 @@
 import Navbar from './components/navbar.js';
 import Configuracoes from './utils/configuracoes.js';
-import { observar } from './utils/estado.js';
 import {renderizarPagina} from './roteador.js';
-
+import Header  from './components/header.js';
 async function iniciarApp() {
   const app = document.getElementById('app');
   app.innerHTML = ''; 
 
   const navbar = await Navbar();
-  app.appendChild(navbar);
+  const header = await Header()
+  header.appendChild(navbar);
+  app.appendChild(header)
 
   const conteudo = document.createElement('div');
+  conteudo.classList.add('main')
   conteudo.id = 'conteudo';
   app.appendChild(conteudo);
 
   const configuracoes = Configuracoes();
   app.appendChild(configuracoes);
 
-  observar(renderizarPagina);
   renderizarPagina();
 }
 

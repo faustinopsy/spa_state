@@ -9,7 +9,9 @@ async function PaginaContato() {
     div.innerHTML = `
       <h1>${traducoes.contato[estado.idioma].titulo}</h1>
       <p>${traducoes.contato[estado.idioma].descricao}</p>
-      <h3>${traducoes.contato[estado.idioma].email}</h3>
+      <p>${traducoes.contato[estado.idioma].email}</p>
+      <p>${traducoes.contato[estado.idioma].telefone}</p>
+      <p>${traducoes.contato[estado.idioma].endereco}</p>
     `;
   };
 

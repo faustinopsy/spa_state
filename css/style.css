@@ -1,0 +1,34 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+header{
+    position: relative;
+}
+nav{
+    display: flex;
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    background-color: cadetblue;
+}
+.main{
+    position: relative;
+    margin: 20px;
+}
+a{
+    cursor: pointer;
+    padding: 5px;
+}
+a:hover{
+    background-color: rgb(222, 250, 131);
+}
+ul{
+    list-style: none;
+}
+.config{
+    position: fixed;
+    top: 0;
+    right: 30px;
+}

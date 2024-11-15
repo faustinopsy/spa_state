@@ -1,51 +1,82 @@
 {
   "navbar": {
-      "pt": {
-        "#inicio": "Inicial",
-        "#sobre": "Sobre",
-        "#contato": "Contato"
-      },
-      "en": {
-        "#inicio": "Home",
-        "#sobre": "About",
-        "#contato": "Contact"
-      }
+    "pt": {
+      "#inicio": "Inicial",
+      "#sobre": "Sobre",
+      "#contato": "Contato"
     },
-    "inicio": {
-      "pt": {
-        "titulo": "Bem-vindo à Página Inicial",
-        "descricao": "Esta é a página inicial da nossa aplicação.",
-        "subtitulo": "Explore nossos recursos!"
-      },
-      "en": {
-        "titulo": "Welcome to the Home Page",
-        "descricao": "This is the home page of our application.",
-        "subtitulo": "Explore our features!"
-      }
+    "en": {
+      "#inicio": "Home",
+      "#sobre": "About",
+      "#contato": "Contact"
+    }
+  },
+  "inicio": {
+    "pt": {
+      "titulo": "Bem-vindo ao Doe Roupas",
+      "descricao": "Transforme o mundo com gestos simples. Doe roupas e aqueça vidas!",
+      "subtitulo": "Como Funciona",
+      "passos": [
+        "1. Separe as roupas que você não usa mais.",
+        "2. Escolha uma instituição parceira para doar.",
+        "3. Marque a data e local para entrega ou solicite retirada.",
+        "4. Acompanhe o impacto da sua doação!"
+      ],
+      "chamada_para_acao": "Faça a diferença hoje mesmo. Doe amor em forma de roupas!"
     },
-    "sobre": {
-      "pt": {
-        "titulo": "Sobre Nós",
-        "descricao": "Nós somos uma equipe dedicada a criar ótimos produtos.",
-        "missao": "Nossa missão é servir você."
-      },
-      "en": {
-        "titulo": "About Us",
-        "descricao": "We are a team dedicated to creating great products.",
-        "missao": "Our mission is to serve you."
-      }
+    "en": {
+      "titulo": "Welcome to Clothes Donation",
+      "descricao": "Make a difference with simple gestures. Donate clothes and warm lives!",
+      "subtitulo": "How It Works",
+      "passos": [
+        "1. Separate the clothes you no longer use.",
+        "2. Choose a partner institution to donate.",
+        "3. Schedule a date and location for delivery or request pickup.",
+        "4. Track the impact of your donation!"
+      ],
+      "chamada_para_acao": "Make a difference today. Donate love in the form of clothes!"
+    }
+  },
+  "sobre": {
+    "pt": {
+      "titulo": "Sobre Nós",
+      "descricao": "A Doe Roupas é uma organização sem fins lucrativos dedicada a conectar doadores e instituições de caridade, promovendo solidariedade e sustentabilidade.",
+      "missao": "Nossa missão é facilitar a doação de roupas e ajudar a construir um mundo onde ninguém passe frio.",
+      "visao": "Ser a plataforma mais confiável e eficiente para doações de roupas no país.",
+      "valores": [
+        "Solidariedade: acreditamos no poder da união e da ajuda mútua.",
+        "Sustentabilidade: promovemos a reutilização para reduzir o desperdício.",
+        "Transparência: mantemos você informado sobre o destino de cada doação."
+      ]
     },
-    "contato": {
-      "pt": {
-        "titulo": "Entre em Contato",
-        "descricao": "Sinta-se à vontade para nos enviar uma mensagem.",
-        "email": "Nosso email é contato@exemplo.com"
-      },
-      "en": {
-        "titulo": "Contact Us",
-        "descricao": "Feel free to send us a message.",
-        "email": "Our email is contact@example.com"
-      }
+    "en": {
+      "titulo": "About Us",
+      "descricao": "Clothes Donation is a non-profit organization dedicated to connecting donors with charities, promoting solidarity and sustainability.",
+      "missao": "Our mission is to make clothes donation easy and help build a world where no one feels cold.",
+      "visao": "To be the most trusted and efficient platform for clothing donations in the country.",
+      "valores": [
+        "Solidarity: we believe in the power of unity and mutual aid.",
+        "Sustainability: we promote reuse to reduce waste.",
+        "Transparency: we keep you informed about the destination of each donation."
+      ]
+    }
+  },
+  "contato": {
+    "pt": {
+      "titulo": "Entre em Contato",
+      "descricao": "Quer saber mais sobre nossas campanhas ou se tornar um parceiro? Estamos à disposição!",
+      "email": "Nosso email é contato@doeroupas.com",
+      "telefone": "Ligue para nós: (11) 1234-5678",
+      "endereco": "Endereço: Rua da Solidariedade, 123 - São Paulo, SP",
+      "horario_atendimento": "Horário de atendimento: Segunda a Sexta, das 9h às 18h"
+    },
+    "en": {
+      "titulo": "Contact Us",
+      "descricao": "Want to know more about our campaigns or become a partner? We are here for you!",
+      "email": "Our email is contact@clothesdonation.com",
+      "telefone": "Call us: (11) 1234-5678",
+      "endereco": "Address: Solidarity Street, 123 - São Paulo, SP",
+      "horario_atendimento": "Service hours: Monday to Friday, from 9 am to 6 pm"
     }
   }
-  
+}

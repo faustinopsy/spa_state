@@ -20,6 +20,7 @@ const estado = {
     location.hash = estado.rota
     observadores.forEach(callback => callback(estado));
     localStorage.setItem('estadoApp', JSON.stringify(estado));
+    
   }
   
   function carregarEstado() {
@@ -46,6 +47,37 @@ const estado = {
   }
   
   carregarEstado();
+
+
+  const observer = new PerformanceObserver((list) => {
+    for (const entry of list.getEntries()) {
+      const entryTypeTranslated = traduzirEntrada(entry.entryType);
+      console.log(`${entryTypeTranslated} | ${entry.name}: ${entry.duration.toFixed(2)}ms`);
+    }
+      
+      list.getEntries().forEach((entry) => {
+            console.log(entry);
+      });
+  });
+  
+  observer.observe({
+    entryTypes: ['paint', 'mark', 'measure', 'navigation', 'resource', 'longtask']
+  });
+  
+  function traduzirEntrada(entryType) {
+    const traducao = {
+      'paint': 'Pintura',
+      'mark': 'Marca',
+      'measure': 'Medição',
+      'navigation': 'Navegação',
+      'resource': 'Recurso',
+      'longtask': 'Tarefa Longa',
+      'responseEnd': 'Final da resposta',
+      'domComplete': 'Dom Completo'
+    };
+    return traducao[entryType] || entryType;
+  }
+
   
   export { estado, observar, atualizar, carregarTraducoes };
   

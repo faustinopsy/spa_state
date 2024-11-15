@@ -10,8 +10,18 @@ async function PaginaSobre() {
       <p>${traducoes.sobre[estado.idioma].descricao}</p>
       <h3>${traducoes.sobre[estado.idioma].missao}</h3>
     `;
-  };
+  
 
+  const listaValores = document.createElement('ul');
+    traducoes.sobre[estado.idioma].valores.forEach(valor => {
+      const item = document.createElement('li');
+      item.textContent = valor;
+      listaValores.appendChild(item);
+    });
+
+    div.appendChild(listaValores);
+  };
+  
   observar(atualizarConteudo);
   atualizarConteudo();
 

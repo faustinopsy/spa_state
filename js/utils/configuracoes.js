@@ -2,7 +2,7 @@ import { estado, atualizar, observar } from './estado.js';
 
 function Configuracoes() {
   const div = document.createElement('div');
-
+  div.classList.add('config')
   const aumentaFonte = document.createElement('button');
   aumentaFonte.textContent = 'A +';
   aumentaFonte.addEventListener('click', () => atualizar({ tamanhoFonte: estado.tamanhoFonte + 2 }));
@@ -14,10 +14,11 @@ function Configuracoes() {
   div.appendChild(diminuiFonte);
 
   const botaoCor = document.createElement('button');
-  botaoCor.textContent = 'Mudar Cor de Fundo';
+  botaoCor.textContent = 'dark';
   botaoCor.addEventListener('click', () => {
     const novaCor = estado.corDeFundo === 'white' ? 'black' : 'white';
     const fonteCor = novaCor === 'white' ? 'black' : 'white';
+    botaoCor.textContent = novaCor === 'white' ? 'dark' : 'light';
     atualizar({ corDeFundo: novaCor });
     atualizar({ corDeFonte: fonteCor });
   });
